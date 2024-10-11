@@ -18,10 +18,10 @@ public class Entrada {
         s = new Scanner(System.in);
     }
     
-    public double lerNumero(String msg){
+    public float lerNumero(String msg){
         try{
             System.out.println(msg);
-            double line = s.nextDouble();
+            float line = s.nextFloat();
             return line;
         }
         catch(InputMismatchException e){
