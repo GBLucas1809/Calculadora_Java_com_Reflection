@@ -11,9 +11,14 @@
         <maven.compiler.target>20</maven.compiler.target>
         <exec.mainClass>pooprojects.appcalculadora.AppCalculadora</exec.mainClass>
     </properties>
-<<<<<<< HEAD
-</project>
-=======
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+    </dependencies>
 </project>
 <!--Comentário-->
->>>>>>> d589b951ad349a5c490abaa06222589dfdee8d6b
+
